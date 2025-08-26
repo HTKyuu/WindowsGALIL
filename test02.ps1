@@ -3,4 +3,5 @@ If (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     Write-Error "This script must be run as Administrator."
     exit
 }
-print("Hello, World!")
+
+Write-Output "Hello, World!"
