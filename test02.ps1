@@ -4,4 +4,5 @@ If (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     exit
 }
 
-Write-Output "Hello, World!"
+
+[Console]::WriteLine("Hello, World!")
